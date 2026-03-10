@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D| Home</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="image/image1.png" alt="3D Team Logo" class="logo" />
+        <h1 class="title">3D TEAM</h1>
+      </div>
+
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Projects.html">Projects</a>
+        <a href="Contact.html">Contact</a>
+      </nav>
+    </header>
+    <!-- ==== CONTACT PAGE ===== -->
+    <section class="contact fade-in">
+      <h1>Get in Touch</h1>
+      <p>
+        I'd love to hear from you! Whether you have a project idea, a question,
+        or just want to say hello--feel free to reach out anytime.
+      </p>
+
+      <!--====CONTACT FORM -=====-->
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Your name" reqiured />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            placeholder="email@gmail.com"
+            class="email-input"
+            required
+          />
+          <p id="demo"></p>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Massage</label>
+          <textarea
+            id="message"
+            rows="5"
+            placeholder="Write your message..."
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn-send">Send Message</button>
+      </form>
+
+      <!---==== CONTACT INFO ====-->
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:youremail@example.com">youremail@example.com</a>
+          </li>
+          <li>Location: Jimma, Ethiopia</li>
+          <li>
+            Connect:
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>||
+            <a href="https://t.m" target="_blank">Telegram</a>||
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!--  FOOTER SECTION -->
+    <footer class="footer">
+      <div class="footer-content">
+        <h3>Team 3D</h3>
+        <p>
+          Creating digital experiences that shine with innovation and excellence
+        </p>
+
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          "Whatever you do, work at it with all your heart." – Colossians 3:23
+        </p>
+        <p>© 2025 Team 3D. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
